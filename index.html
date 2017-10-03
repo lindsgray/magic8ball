@@ -2,3 +2,24 @@
 an input field to input a question,
 an ask button that when clicked, will output a random image
 a div/img tag that you can output the image into -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Magic 8 Ball</title>
+</head>
+<body>
+    <div class="row">
+        <div class="col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-4">
+            <img src="img/magic8ball_empty.png" alt="8 Ball" class="ball-image" id="eightBall">
+            <input type="text" class="form-control">
+            <button class="btn btn-success">Shake it!</button>
+        </div>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
